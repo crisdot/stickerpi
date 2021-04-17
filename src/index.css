@@ -1,0 +1,84 @@
+* {
+  font-family: Luckiest Guy, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  color:red;
+  width: 30%;
+
+}
+
+.raiz {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container-titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.container-titulo h2 {
+  font-size: xxx-large;
+}
+
+.card img {
+  height: 250px;
+  width: 250px;
+  align-self: center;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid green;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px;
+}
+
+.card p {
+  max-height: 170px;
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.iclass {
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+  text-align: center;
+  height: 40px;
+  width: 525px;
+}
+
+.iclass:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+.iclass input {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  width: 470px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
