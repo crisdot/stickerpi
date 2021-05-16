@@ -24,11 +24,13 @@ const AddCategory = ({setCategories}) => {
         <form onSubmit={handleSubmit}>
             <p>{inputValue}</p>
             <div className="iclass">
+            <span class="hint--top hint--rounded" aria-label="Escribe lo que necesites encontrar! El que quieras!">
                 <input
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}
                 />
+            </span>
             </div>
 
         </form>
